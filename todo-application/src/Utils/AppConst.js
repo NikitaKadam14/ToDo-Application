@@ -1,5 +1,6 @@
 
-const BASE_URL = "http://localhost:5000/api";
+// const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://YOUR-RENDER-URL.onrender.com/api";
 
 export const API_URLS = {
 
