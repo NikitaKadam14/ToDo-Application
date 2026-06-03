@@ -1,57 +1,5 @@
-// import logo from './logo.svg';
-// import './App.css';
-// import { useState } from 'react';
-
-// function App() {
-//   const [addData, setAddData] = useState({
-//     title: "",
-//     description: ""
-//   });
-//   const handleInputChange = (event) => {
-//     setAddData({
-//       ...addData,
-//       [event.target.name]: event.target.value
-//     });
-//   };
-//   const handleAddTodo = () => {
-//     console.log(addData);
-//   };
-//   return (
-//     <div>
-//       <div className='font-bold text-center text-2xl'>TO-DO APP</div>
-//       <div className="bg-white w-[400px] mx-auto p-5 rounded-lg shadow-md">
-
-//         <input
-//           type="text"
-//           name="title"
-//           placeholder="Enter Title"
-//           value={addData.title}
-//           onChange={handleInputChange}
-//           className="w-full border border-gray-300 p-2 rounded-md mb-4"
-//         />
-
-//         <input
-//           name="description"
-//           placeholder="Enter Description"
-//           value={addData.description}
-//           onChange={handleInputChange}
-//           className="w-full border border-gray-300 p-2 rounded-md mb-4"
-//         />
-
-//         <button
-//           onClick={handleAddTodo}
-//           className="w-full bg-black text-white py-2 rounded-md font-semibold"
-//         >
-//           Add Todo
-//         </button>
-
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default App;
 import './App.css';
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from 'react';
 import InputComponent from './Components/InputComponent';
 import PrimaryButtonComponent from './Components/PrimaryButtonComponent';
